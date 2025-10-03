@@ -14,3 +14,20 @@ D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\refint\jogo.dll
 D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.pdb
 D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.genruntimeconfig.cache
 D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\ref\jogo.dll
+C:\Users\25163093\Documents\truco\miniTruco\jogo\bin\Debug\net8.0-windows\jogo.exe
+C:\Users\25163093\Documents\truco\miniTruco\jogo\bin\Debug\net8.0-windows\jogo.deps.json
+C:\Users\25163093\Documents\truco\miniTruco\jogo\bin\Debug\net8.0-windows\jogo.runtimeconfig.json
+C:\Users\25163093\Documents\truco\miniTruco\jogo\bin\Debug\net8.0-windows\jogo.dll
+C:\Users\25163093\Documents\truco\miniTruco\jogo\bin\Debug\net8.0-windows\jogo.pdb
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.Form1.resources
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.csproj.GenerateResource.cache
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.AssemblyInfoInputs.cache
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.AssemblyInfo.cs
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.csproj.CoreCompileInputs.cache
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.sourcelink.json
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.dll
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\refint\jogo.dll
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.pdb
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\jogo.genruntimeconfig.cache
+C:\Users\25163093\Documents\truco\miniTruco\jogo\obj\Debug\net8.0-windows\ref\jogo.dll

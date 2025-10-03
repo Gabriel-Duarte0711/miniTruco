@@ -49,6 +49,11 @@
             btnJogarC1 = new Button();
             btnJogarC2 = new Button();
             btnJogarC3 = new Button();
+            btnTrucoAdv = new Button();
+            lblTruco = new Label();
+            btnTruco = new Button();
+            btnDesce = new Button();
+            btnRecusar = new Button();
             SuspendLayout();
             // 
             // carta01
@@ -129,9 +134,9 @@
             // 
             // btnExibirAdv
             // 
-            btnExibirAdv.Location = new Point(746, 31);
+            btnExibirAdv.Location = new Point(727, 31);
             btnExibirAdv.Name = "btnExibirAdv";
-            btnExibirAdv.Size = new Size(75, 23);
+            btnExibirAdv.Size = new Size(94, 23);
             btnExibirAdv.TabIndex = 7;
             btnExibirAdv.Text = "Exibir";
             btnExibirAdv.UseVisualStyleBackColor = true;
@@ -139,9 +144,9 @@
             // 
             // btnEsconderAdv
             // 
-            btnEsconderAdv.Location = new Point(746, 60);
+            btnEsconderAdv.Location = new Point(727, 60);
             btnEsconderAdv.Name = "btnEsconderAdv";
-            btnEsconderAdv.Size = new Size(75, 23);
+            btnEsconderAdv.Size = new Size(94, 23);
             btnEsconderAdv.TabIndex = 8;
             btnEsconderAdv.Text = "Esconder";
             btnEsconderAdv.UseVisualStyleBackColor = true;
@@ -149,9 +154,9 @@
             // 
             // btnExibir
             // 
-            btnExibir.Location = new Point(746, 375);
+            btnExibir.Location = new Point(727, 375);
             btnExibir.Name = "btnExibir";
-            btnExibir.Size = new Size(75, 23);
+            btnExibir.Size = new Size(94, 23);
             btnExibir.TabIndex = 9;
             btnExibir.Text = "Exibir";
             btnExibir.UseVisualStyleBackColor = true;
@@ -159,9 +164,9 @@
             // 
             // btnEsconder
             // 
-            btnEsconder.Location = new Point(746, 404);
+            btnEsconder.Location = new Point(727, 404);
             btnEsconder.Name = "btnEsconder";
-            btnEsconder.Size = new Size(75, 23);
+            btnEsconder.Size = new Size(94, 23);
             btnEsconder.TabIndex = 10;
             btnEsconder.Text = "Esconder";
             btnEsconder.UseVisualStyleBackColor = true;
@@ -169,20 +174,22 @@
             // 
             // listBoxJogadas
             // 
+            listBoxJogadas.Font = new Font("Segoe UI", 15F);
             listBoxJogadas.FormattingEnabled = true;
-            listBoxJogadas.ItemHeight = 15;
+            listBoxJogadas.ItemHeight = 28;
             listBoxJogadas.Location = new Point(884, 324);
             listBoxJogadas.Name = "listBoxJogadas";
-            listBoxJogadas.Size = new Size(94, 154);
+            listBoxJogadas.Size = new Size(94, 144);
             listBoxJogadas.TabIndex = 12;
             // 
             // listBoxJogadasAdv
             // 
+            listBoxJogadasAdv.Font = new Font("Segoe UI", 15F);
             listBoxJogadasAdv.FormattingEnabled = true;
-            listBoxJogadasAdv.ItemHeight = 15;
+            listBoxJogadasAdv.ItemHeight = 28;
             listBoxJogadasAdv.Location = new Point(884, 122);
             listBoxJogadasAdv.Name = "listBoxJogadasAdv";
-            listBoxJogadasAdv.Size = new Size(94, 154);
+            listBoxJogadasAdv.Size = new Size(94, 144);
             listBoxJogadasAdv.TabIndex = 13;
             // 
             // label1
@@ -263,11 +270,66 @@
             btnJogarC3.UseVisualStyleBackColor = true;
             btnJogarC3.Click += btnJogarC3_Click;
             // 
+            // btnTrucoAdv
+            // 
+            btnTrucoAdv.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnTrucoAdv.Location = new Point(727, 152);
+            btnTrucoAdv.Name = "btnTrucoAdv";
+            btnTrucoAdv.Size = new Size(94, 23);
+            btnTrucoAdv.TabIndex = 29;
+            btnTrucoAdv.Text = "TRUCOO";
+            btnTrucoAdv.UseVisualStyleBackColor = true;
+            btnTrucoAdv.Click += btnTruco_Click;
+            // 
+            // lblTruco
+            // 
+            lblTruco.AutoSize = true;
+            lblTruco.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            lblTruco.Location = new Point(578, 257);
+            lblTruco.Name = "lblTruco";
+            lblTruco.Size = new Size(243, 28);
+            lblTruco.TabIndex = 30;
+            lblTruco.Text = "TRUCOOOOOOOOOOOO";
+            // 
+            // btnTruco
+            // 
+            btnTruco.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnTruco.Location = new Point(727, 496);
+            btnTruco.Name = "btnTruco";
+            btnTruco.Size = new Size(94, 23);
+            btnTruco.TabIndex = 31;
+            btnTruco.Text = "TRUCOO";
+            btnTruco.UseVisualStyleBackColor = true;
+            btnTruco.Click += button1_Click;
+            // 
+            // btnDesce
+            // 
+            btnDesce.Location = new Point(613, 231);
+            btnDesce.Name = "btnDesce";
+            btnDesce.Size = new Size(75, 23);
+            btnDesce.TabIndex = 32;
+            btnDesce.Text = "desce";
+            btnDesce.UseVisualStyleBackColor = true;
+            // 
+            // btnRecusar
+            // 
+            btnRecusar.Location = new Point(613, 288);
+            btnRecusar.Name = "btnRecusar";
+            btnRecusar.Size = new Size(75, 23);
+            btnRecusar.TabIndex = 33;
+            btnRecusar.Text = "recusar";
+            btnRecusar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1057, 570);
+            Controls.Add(btnRecusar);
+            Controls.Add(btnDesce);
+            Controls.Add(btnTruco);
+            Controls.Add(lblTruco);
+            Controls.Add(btnTrucoAdv);
             Controls.Add(btnJogarC3);
             Controls.Add(btnJogarC2);
             Controls.Add(btnJogarC1);
@@ -319,5 +381,10 @@
         private Button btnJogarC1;
         private Button btnJogarC2;
         private Button btnJogarC3;
+        private Button btnTrucoAdv;
+        private Label lblTruco;
+        private Button btnTruco;
+        private Button btnDesce;
+        private Button btnRecusar;
     }
 }

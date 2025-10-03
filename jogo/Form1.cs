@@ -33,6 +33,38 @@ namespace jogo
                 baralho[j] = temp;
             }
         }
+        public void p1Visible()
+        {
+            //p1
+            carta01.Visible = true;
+            carta02.Visible = true;
+            carta03.Visible = true;
+
+            //p2
+            carta04.Visible = false;
+            carta05.Visible = false;
+            carta06.Visible = false;
+
+            //btn trucos
+            btnTrucoAdv.Visible = false;
+            btnTruco.Visible = true;
+        }
+        public void p2Visible()
+        {
+            //p2
+            carta04.Visible = true;
+            carta05.Visible = true;
+            carta06.Visible = true;
+
+            //p1
+            carta01.Visible = false;
+            carta02.Visible = false;
+            carta03.Visible = false;
+
+            //btn trucos
+            btnTrucoAdv.Visible = true;
+            btnTruco.Visible = false;
+        }
         public void startVisible()
         {
             carta04.Visible = false;
@@ -43,6 +75,8 @@ namespace jogo
             carta03.Visible = false;
             btnEsconderAdv.Visible = false;
             btnEsconder.Visible = false;
+            btnTrucoAdv.Visible = false;
+            btnTruco.Visible = false;
         }
         public Form1()
         {
@@ -51,6 +85,7 @@ namespace jogo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Random rnd = new Random();
             CriarBaralho();
             Embaralhar();
 
@@ -63,6 +98,19 @@ namespace jogo
             carta06.Items.Add(baralho[6]);
 
             startVisible();
+            listBoxJogadas.Enabled = false;
+            listBoxJogadasAdv.Enabled = false;
+            lblTruco.Visible = false;
+
+            int numero = rnd.Next(1, 11);
+            if (numero <= 5)
+            {
+                p1Visible();
+            }
+            else
+            {
+                p2Visible();
+            }
         }
 
         private void btnExibir_Click(object sender, EventArgs e)
@@ -231,6 +279,7 @@ namespace jogo
             carta03.Items.Clear();
             btnJogarC3.Visible = false;
             carta03.Visible = false;
+            p2Visible();
         }
 
         private void btnJogarC2_Click(object sender, EventArgs e)
@@ -239,6 +288,7 @@ namespace jogo
             carta02.Items.Clear();
             btnJogarC2.Visible = false;
             carta02.Visible = false;
+            p2Visible();
         }
 
         private void btnJogarC1_Click(object sender, EventArgs e)
@@ -247,6 +297,7 @@ namespace jogo
             carta01.Items.Clear();
             btnJogarC1.Visible = false;
             carta01.Visible = false;
+            p2Visible();
         }
 
         private void btnJogarC4_Click(object sender, EventArgs e)
@@ -255,6 +306,7 @@ namespace jogo
             carta04.Items.Clear();
             btnJogarC4.Visible = false;
             carta04.Visible = false;
+            p1Visible();
         }
 
         private void btnJogarC5_Click(object sender, EventArgs e)
@@ -263,6 +315,7 @@ namespace jogo
             carta05.Items.Clear();
             btnJogarC5.Visible = false;
             carta05.Visible = false;
+            p1Visible();
         }
 
         private void btnJogarC6_Click(object sender, EventArgs e)
@@ -271,7 +324,19 @@ namespace jogo
             carta06.Items.Clear();
             btnJogarC6.Visible = false;
             carta06.Visible = false;
+            p1Visible();
         }
-      
+
+        private void btnTruco_Click(object sender, EventArgs e)
+        {
+            lblTruco.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblTruco.Visible = true;
+            btnTrucoAdv.Text = "6";
+            btnTrucoAdv.Visible = true;
+        }
     }
 }
