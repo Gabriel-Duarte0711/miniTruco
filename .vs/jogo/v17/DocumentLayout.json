@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\li\u00E7ao curso\\jogo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|d:\\li\u00E7ao curso\\jogo\\jogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|solutionrelative:jogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|d:\\li\u00E7ao curso\\jogo\\jogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|solutionrelative:jogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|d:\\li\u00E7ao curso\\jogo\\jogo\\baralho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|solutionrelative:jogo\\baralho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|d:\\li\u00E7ao curso\\jogo\\jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B05081-75A2-42B9-884B-4011D2845E5C}|jogo\\jogo.csproj|solutionrelative:jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "D:\\li\u00E7ao curso\\jogo\\jogo\\Form1.cs",
+              "RelativeDocumentMoniker": "jogo\\Form1.cs",
+              "ToolTip": "D:\\li\u00E7ao curso\\jogo\\jogo\\Form1.cs [Projeto]",
+              "RelativeToolTip": "jogo\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T01:42:22.216Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\li\u00E7ao curso\\jogo\\jogo\\Form1.cs",
+              "RelativeDocumentMoniker": "jogo\\Form1.cs",
+              "ToolTip": "D:\\li\u00E7ao curso\\jogo\\jogo\\Form1.cs",
+              "RelativeToolTip": "jogo\\Form1.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAAwBABAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:51:04.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Baralho.cs",
+              "DocumentMoniker": "D:\\li\u00E7ao curso\\jogo\\jogo\\Baralho.cs",
+              "RelativeDocumentMoniker": "jogo\\Baralho.cs",
+              "ToolTip": "D:\\li\u00E7ao curso\\jogo\\jogo\\Baralho.cs",
+              "RelativeToolTip": "jogo\\Baralho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:44:39.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\li\u00E7ao curso\\jogo\\jogo\\Program.cs",
+              "RelativeDocumentMoniker": "jogo\\Program.cs",
+              "ToolTip": "D:\\li\u00E7ao curso\\jogo\\jogo\\Program.cs",
+              "RelativeToolTip": "jogo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:43:18.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

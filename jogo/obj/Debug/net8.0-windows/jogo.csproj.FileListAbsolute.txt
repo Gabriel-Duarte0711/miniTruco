@@ -1,0 +1,16 @@
+D:\liçao curso\jogo\jogo\bin\Debug\net8.0-windows\jogo.exe
+D:\liçao curso\jogo\jogo\bin\Debug\net8.0-windows\jogo.deps.json
+D:\liçao curso\jogo\jogo\bin\Debug\net8.0-windows\jogo.runtimeconfig.json
+D:\liçao curso\jogo\jogo\bin\Debug\net8.0-windows\jogo.dll
+D:\liçao curso\jogo\jogo\bin\Debug\net8.0-windows\jogo.pdb
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.Form1.resources
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.csproj.GenerateResource.cache
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.GeneratedMSBuildEditorConfig.editorconfig
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.AssemblyInfoInputs.cache
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.AssemblyInfo.cs
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.csproj.CoreCompileInputs.cache
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.dll
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\refint\jogo.dll
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.pdb
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\jogo.genruntimeconfig.cache
+D:\liçao curso\jogo\jogo\obj\Debug\net8.0-windows\ref\jogo.dll
